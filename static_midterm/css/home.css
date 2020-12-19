@@ -51,6 +51,7 @@
 }
 .menu-bar ul li a {
 	/*text-decoration: none;*/
+	/* margin-right: 5px; */
 	padding: 11px 50px;
 	font-weight: bold;
 	color: black;
@@ -60,4 +61,12 @@
 	background-color: darkgray;
 	font-weight: bolder;
 	border-radius: 3px;
+}
+
+.fa{
+	margin-right: 10px;
+}
+
+.form-inline{
+	margin-left: 50px;
 }
