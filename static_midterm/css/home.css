@@ -64,7 +64,7 @@ html {
 	height: 100%;
 	padding-top: 5px;
 	/* background-color: red; */
-	text-align: center; */
+	text-align: center;
 }
 
 .logo h1,
@@ -146,4 +146,16 @@ h2 {
 .search-btn:hover {
 	background-color: #fff;
 	color: #000000;
+}
+
+.carousel{
+	width: 90%;
+	height: 800px;
+	margin: 40px auto;
+	
+}
+.carousel-item img{
+	width: 90%;
+	height: 800px;
+	
 }
