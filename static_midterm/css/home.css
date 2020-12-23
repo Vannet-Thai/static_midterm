@@ -182,6 +182,9 @@ h2 {
 	.menu-bar {
 		margin-top: -5px;
 	}
+	.slider {
+		display: none;
+	}
 }
 
 footer {

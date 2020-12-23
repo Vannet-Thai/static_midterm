@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.left-menu {
+	width: 20%;
+}
+.cards {
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: auto;
+	grid-gap: 1rem;
+	margin: auto;
+}
+
+/* small device */
+@media (max-width: 767px) {
+	.cards {
+		display: inline;
+		margin: auto;
+	}
+}
