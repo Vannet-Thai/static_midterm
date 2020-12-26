@@ -142,34 +142,36 @@ a.article:hover {
 		display: inline;
 		margin: auto;
     }
-    .carousel{
-        display: none;
-    }
+    
     #sidebar{
-        min-width: 385px;
-        max-width: 385px;
+        min-width: 100px;
+        max-width: 100px;
         background: #7386d5;
         color: #fff;
         transition: all 0.3s;
         /* margin: auto; */
+        font-size: 10px;
+    }
+
+    .sidebar-header h3{
+        font-size: 15px;
+    }
+
+    .cards {
+        width: 70%;
     }
 
     
+    #sidebar ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 5px;
+        font-size: 1.1em;
+        display: block;
+    }
+
+    .fa, .fas{
+        margin-left: -20px;
+    }
+    
 }
-
-.carousel {
-	width: 60%;
-	height: 630px;
-	margin: 40px auto;
-}
-
-.carousel-item img {
-	width: 60%;
-	height: 630px;
-}
-
-
-
-
-
-

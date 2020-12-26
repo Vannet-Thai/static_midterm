@@ -142,34 +142,24 @@ a.article:hover {
 		display: inline;
 		margin: auto;
     }
-    .carousel{
-        display: none;
-    }
+    
     #sidebar{
-        min-width: 385px;
-        max-width: 385px;
+        min-width: 100px;
+        max-width: 100px;
         background: #7386d5;
         color: #fff;
         transition: all 0.3s;
         /* margin: auto; */
+        font-size: 10px;
     }
 
+    .sidebar-header h3{
+        font-size: 20px;
+    }
+
+    .cards {
+        width: 70%;
+    }
     
+
 }
-
-.carousel {
-	width: 60%;
-	height: 630px;
-	margin: 40px auto;
-}
-
-.carousel-item img {
-	width: 60%;
-	height: 630px;
-}
-
-
-
-
-
-
