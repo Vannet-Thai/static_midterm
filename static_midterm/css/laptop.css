@@ -135,6 +135,9 @@ a.article:hover {
 	grid-gap: 1rem;
 	margin: auto;
 }
+.card {
+	box-shadow: 3px 3px 1px 2px #abb2b9;
+}
 
 /* small device */
 @media (max-width: 767px) {
