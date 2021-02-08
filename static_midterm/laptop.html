@@ -39,7 +39,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    <i class="fas fa-shopping-cart hvr-bounce-in"></i>
+                     <button style="background: none; color: black; border:none; font-size: 25px;"type="button" class="btn btn-primary hvr-bounce-in" data-toggle="modal" data-target="#cart"><i class="fas fa-shopping-cart"></i>(<span class="total-count"></span>)</button>
                   </a>
                 </li>
               </ul>
@@ -113,7 +113,7 @@
       </nav>
     </div>
     <div class="cards">
-      <div class="card" style="width: 18rem;">
+      <div class="card card-block" style="width: 18rem;">
         <img src="./picture/latop/msi/msi-prestige-14-a10ras.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">MSI Prestige 14</h5>
@@ -123,7 +123,7 @@
             <span>SSD: 1TB</span> <br>
             <span>PRICE: 749$</span>
           </p>
-          <a href="#" class="btn btn-primary">Add to Card</a>
+          <a href="#" data-name="MSi" data-price=749 class="add-to-cart btn btn-primary">Add to Card</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
@@ -219,6 +219,30 @@
       </div>
     </div>
   </div>
+  <!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
 
 
   <footer class="footer">
@@ -277,6 +301,7 @@
   <script src=".//bootstrap/js/bootstrap.js"></script>
   <script src="./bootstrap/js/bootstrap.bundle.js"></script>
   <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/cart_content.js"></script>
 
 </body>
 
